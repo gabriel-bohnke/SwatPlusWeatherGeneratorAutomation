@@ -1,0 +1,4 @@
+earthengine-api~=0.1.316
+pandas~=1.4.2
+numpy~=1.22.3
+python-dateutil~=2.8.2
