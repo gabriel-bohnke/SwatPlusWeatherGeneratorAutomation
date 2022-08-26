@@ -15,6 +15,12 @@ Purpose of this project is to create all those weather files based on ERA5, IMER
 Parameter "interval_size_in_days" cuts retrieval into chunks, to bypass memory issues of GEE.
 
 
+<b>Authentication:</b> 
+
+To run script <i>retrieve_station_data.py</i>, <i>gcloud</i> tool must be available on local machine. Download <i>gcloud</i>, and install for example in: C:\Users\<user>\AppData\Local\Google\Cloud SDK directory. Then add path C:\Users\<user>\AppData\Local\Google\Cloud SDK<b>\google-cloud-sdk\bin</b> to Environment Variables > System Variables.
+
+
+
 <b>How to use generated files and folders in SWAT+ Editor:</b>
 
 Weather generator data > Import data
