@@ -2,7 +2,7 @@
 
 Step 3 in SWAT+ Editor "Edit Inputs and Run SWAT+" requires some weather data.
 
-Purpose of this project is to create all those weather files based on ERA5, IMERG and GFS climate data, using google earth-engine API in Python.
+Purpose of this project is to create all those weather files, based on ERA5, IMERG and GFS climate data, using google earth-engine API in Python.
 
 <b>Parameters of script <i>retrieve_station_data.py</i>:</b>
 - from_date_string
@@ -17,7 +17,7 @@ Parameter "interval_size_in_days" cuts retrieval into chunks, to bypass memory i
 
 <b>Authentication to GEE:</b> 
 
-To run script <i>retrieve_station_data.py</i>, <i>gcloud</i> tool must be available on local machine. Download <i>gcloud</i>, and install for example in: C:\Users\<user>\AppData\Local\Google\Cloud SDK directory. Then add path C:\Users\<user>\AppData\Local\Google\Cloud SDK<b>\google-cloud-sdk\bin</b> to Environment Variables > System Variables.
+To run script <i>retrieve_station_data.py</i>, <b>gcloud</b> app must be available on local machine. Download <b>gcloud</b>, and install for example in: 'C:\Users\<user>\AppData\Local\Google\Cloud SDK' directory. Then add path 'C:\Users\<user>\AppData\Local\Google\Cloud SDK<b>\google-cloud-sdk\bin</b>' to Environment Variables > System Variables.
 
 
 
